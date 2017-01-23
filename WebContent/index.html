@@ -1,0 +1,49 @@
+
+
+<html>
+
+<head>
+<title>Page Title</title>
+ 
+<style>
+body {
+        background-image: url("images/trade4.jpg ");
+         background-repeat: repeat-Y;
+   	 	background-attachment: local;
+    	background-position: right; 
+ } 
+
+
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+</style>
+ 
+</head>
+ 
+<h3>Welcome to USD TRADING  !!!!  Please enter your details </h3>
+
+<form action="servlet1" method="post">
+<p>
+Entity:<input type="text" name="Entity"/><br/>
+
+BuySell:<input type="text" name="BuySell"/><br/>
+
+AgreedFx:<input type="text" name="AgreedFx"/><br/>
+Currency:<input type="text" name="Currency"/><br/>
+
+Instruction Date:<input type="text" name="InstructionDate"/><br/>
+SettlementDate:<input type="text" name="SettlementDate"/><br/>
+
+Units:<input type="text" name="Units"/><br/>
+Price Per Unit:<input type="text" name="Priceperunit"/><br/><br/>
+
+<input type="submit" value="Submit Details for TRADING"/>
+</form>
+</p>
+</div>
+</body>
+</html>
+
+<!-- Entity Buy/Sell AgreedFx Currency InstructionDate SettlementDate Units Price per unit -->
